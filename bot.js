@@ -61,7 +61,7 @@ client.on('ready', () => {
 
       client.on('message',function(message) {
         if (message.author.bot) return;
-      var prefix = "B";
+      var prefix = "S";
                         if(!message.channel.guild) return;
       
                           if (message.content === prefix + "fm") {
@@ -80,7 +80,7 @@ client.on('ready', () => {
             });  
 
      client.on('message', message => {
-                    var prefix = ".";
+                    var prefix = "S";
                            if(message.content === prefix + "mc") {
                                                if(!message.channel.guild) return message.reply('** This command only for servers**');
                     
@@ -165,7 +165,7 @@ function forEachObject(obj, func) {
 client.on("ready", () => {
     var guild;
     while (!guild)
-        guild = client.guilds.get("546433346461499423")
+        guild = client.guilds.get("547881698977644545")
     guild.fetchInvites().then((data) => {
         data.forEach((Invite, key, map) => {
             var Inv = Invite.code;
@@ -185,7 +185,7 @@ client.on("guildMemberAdd", (member) => {
     console.log('made it till here!');
     var guild;
     while (!guild)
-        guild = client.guilds.get("546433346461499423")
+        guild = client.guilds.get("547881698977644545")
     guild.fetchInvites().then((data) => {
         data.forEach((Invite, key, map) => {
             var Inv = Invite.code;
@@ -203,7 +203,7 @@ client.on("guildMemberAdd", (member) => {
 
 client.on('guildMemberAdd', member => {
 
-    const channel = member.guild.channels.find('name', '・discord');
+    const channel = member.guild.channels.find('name', 'chat');
   
     const millis = new Date().getTime() - member.user.createdAt.getTime();
     const now = new Date();
