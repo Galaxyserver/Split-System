@@ -34,11 +34,11 @@ const client = new Discord.Client({disableEveryone: true});
 
 const request = require('request');
 
-const prefix = '.'
+const prefix = 'S'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setGame(`Bhelp|DarkNight  .`,'https://www.twitch.tv/v5bz');
+	client.user.setGame(`Shelp|Split Server  .`,'https://www.twitch.tv/v5bz');
 });
 
 
@@ -1110,35 +1110,35 @@ client.on("message", message => {
          .setFooter('Reqused By : ' + message.author.username, message.author.avatarURL)
 	 .setTimestamp()
          .setDescription(`**• Puplic - عام •
-Bavatar ( صوره الشخصيه )
-Bhelp ( عرض قائمه المساعده )
-Bcount ( لعرض عدد الاعضاء )
-Bid ( عرض معلومات الشخصيه )
-Bfm ( لعرض حالت الاعضاء )
-Bping ( لعرض سرعه النت تبعك )
-Bavatar ( لعرض صوره حسابك )
-Bprofile ( لازهار البروفايل حقك )
+Savatar ( صوره الشخصيه )
+Shelp ( عرض قائمه المساعده )
+Scount ( لعرض عدد الاعضاء )
+Sid ( عرض معلومات الشخصيه )
+Sfm ( لعرض حالت الاعضاء )
+Sping ( لعرض سرعه النت تبعك )
+Savatar ( لعرض صوره حسابك )
+Sprofile ( لازهار البروفايل حقك )
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 • Staff - الاداره •
-Bban ( حظر الشخصيه )
-Bkick ( طرد الشخصيه )
-Bmute ( اسكات الشخصيه )
-Bunmute ( فك الاسكات من الشخصيه )
-Bclear ( مسح رسائل المخادثه )
-Bserver ( عرض معلومات السيرفر )
-Bmove ( سحب العضو لرومك الصوتي )
-Bsetcount ( لصنع روم عدد الاعضاء )
-Bsetvoice ( لصنع روم عدد الاعضاء الي في الرومات )
-Bbc ( لارسال بردكاست بمنشن )
-Bbbc ( لارسال بردكاست بدون منشن )
-Bmc ( لقفل روم كتابه )
-Bumc ( لفتح روم كتابه )
-Bautorole ( لتفعيل الاوتو رول )
-Brole ( لاعطاء رتبه )
-Bclear ( لمسح لشات )
-Bclear <num> ( لمسح الشات بعدد )
+Sban ( حظر الشخصيه )
+Skick ( طرد الشخصيه )
+Smute ( اسكات الشخصيه )
+Sunmute ( فك الاسكات من الشخصيه )
+Sclear ( مسح رسائل المخادثه )
+Sserver ( عرض معلومات السيرفر )
+Smove ( سحب العضو لرومك الصوتي )
+Ssetcount ( لصنع روم عدد الاعضاء )
+Ssetvoice ( لصنع روم عدد الاعضاء الي في الرومات )
+.bc ( لارسال بردكاست بمنشن )
+Sbbc ( لارسال بردكاست بدون منشن )
+Smc ( لقفل روم كتابه )
+Sumc ( لفتح روم كتابه )
+Sautorole ( لتفعيل الاوتو رول )
+Srole ( لاعطاء رتبه )
+Sclear ( لمسح لشات )
+Sclear <num> ( لمسح الشات بعدد )
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
